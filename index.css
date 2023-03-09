@@ -55,16 +55,20 @@ button {
 
 .results {
     background: #F4F4F4;
-    padding: 12px 25px;
+    padding: 23px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 420px;
 }
 
 .result {
-    margin: 23px auto;
+    margin: 0 auto;
     padding: 20px 77px;
     text-align: center;
     background-color: #ffffff;
     color: #5A537B;
-    max-width: 500px;
+    width: 500px;
 }
 
 .result h2 {
